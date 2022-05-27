@@ -1,0 +1,60 @@
+/**
+ * @author [Harish C Jingade]
+ * @email [harishcjingade@gmail.com]
+ * @create date 2022-05-27 22:58:57
+ * @modify date 2022-05-27 22:58:57
+ * @desc [Card Component CSS]
+ */
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F6;
+}
+
+.cardCntr {
+    border-radius: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.cardCntr:hover {
+    /* filter: drop-shadow(0 3px 18px #0009); */
+    box-shadow: 0 3px 18px #0009;
+}
+
+.cardImg {
+    width: 290px;
+    height: 290px;
+}
+
+.caption {
+    padding: 20px 16px 18px 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    color: #0f5EF0;
+    font-size: 15px;
+}
+
+.subCaption {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    color: #7A8594;
+    font-size: 12px;
+    padding: 0 16px;
+}
+
+.modifiedTxt {
+    font-family: 'Source Sans Pro';
+    color: #7A8594;
+    font-size: 12px;
+    padding: 20px 16px 14px 16px;
+}
